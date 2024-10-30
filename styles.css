@@ -13,3 +13,18 @@ button {
     border-radius: 3px;
     background-color: cornflowerblue;
 }
+
+.container {
+    display: flex;
+}
+
+.tile {
+    height: 10px;
+    width: 10px;
+    border: 1px solid #000;
+    flex-shrink: 0;
+}
+
+.tile:hover{
+    background-color: blue;
+}
